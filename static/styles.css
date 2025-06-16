@@ -1,0 +1,119 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to right, #e6ffe6, #f2fff2);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.chat {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card {
+    height: 550px;
+    border-radius: 15px !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 0 15px rgba(0, 128, 0, 0.2);
+}
+
+.msg_card_body {
+    overflow-y: auto;
+    background-color: #f8fff8;
+}
+
+.card-header {
+    background-color: #66bb6a;
+    border-radius: 15px 15px 0 0 !important;
+    border-bottom: 0 !important;
+    color: white;
+}
+
+.card-footer {
+    background-color: #e8f5e9;
+    border-radius: 0 0 15px 15px !important;
+    border-top: 0 !important;
+}
+
+.type_msg {
+    background-color: white;
+    border: 1px solid #c8e6c9;
+    color: #333;
+    height: 60px !important;
+    border-radius: 10px;
+}
+
+.send_btn {
+    background-color: #66bb6a !important;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.user_img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #e0f2f1;
+}
+
+.user_img_msg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #a5d6a7;
+}
+
+.img_cont_msg {
+    height: 40px;
+    width: 40px;
+}
+
+.msg_cotainer {
+    background-color: #c8e6c9;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.msg_cotainer_send {
+    background-color: #aed581;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.msg_time,
+.msg_time_send {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: -15px;
+}
+
+.msg_time {
+    left: 0;
+}
+
+.msg_time_send {
+    right: 0;
+}
+
+.user_info span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user_info p {
+    font-size: 12px;
+    color: #f0f0f0;
+    margin: 0;
+}
+
+/* Spinner Styling */
+#loading img {
+    display: inline-block;
+    margin: 0 auto;
+}

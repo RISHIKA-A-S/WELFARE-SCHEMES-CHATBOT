@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Schemes_Chatbot_Project.egg-info/PKG-INFO
+Schemes_Chatbot_Project.egg-info/SOURCES.txt
+Schemes_Chatbot_Project.egg-info/dependency_links.txt
+Schemes_Chatbot_Project.egg-info/top_level.txt
+src/__init__.py
+src/helper.py
+src/prompt.py
