@@ -1,0 +1,3 @@
+pip install -U langchain-ollama
+pip install -U langchain-huggingface
+pip install -U sentence-transformers
